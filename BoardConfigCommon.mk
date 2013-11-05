@@ -30,9 +30,6 @@ BOARD_FAMILY := celox
 # inherit from common msm8660
 -include device/samsung/msm8660-common/BoardConfigCommon.mk
 
-## Kernel Toolchain Linaro 4.7.4
-TARGET_KERNEL_CUSTOM_TOOLCHAIN := LINARO-kernel
-
 # Kernel
 BOARD_KERNEL_CMDLINE        := androidboot.hardware=qcom usb_id_pin_rework=true no_console_suspend=true zcache
 BOARD_KERNEL_BASE           := 0x40400000
