@@ -105,4 +105,8 @@
 
     <!-- Device supports LED flashlight -->
     <bool name="config_enableTorch">true</bool>
+    
+    <!-- . NOTE: in the future this may be
+autodetected from the Configuration. -->
+    <bool name="config_showNavigationBar">false</bool>    
 </resources>
