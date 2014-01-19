@@ -31,8 +31,7 @@ BOARD_FAMILY := celox
 -include device/samsung/msm8660-common/BoardConfigCommon.mk
 
 ## Kernel Toolchain Linaro 4.7.4
-
-TARGET_KERNEL_CUSTOM_TOOLCHAIN :=  cortex-a8
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := cortex-a8
 
 # Kernel
 BOARD_KERNEL_CMDLINE        := androidboot.hardware=qcom usb_id_pin_rework=true no_console_suspend=true zcache
